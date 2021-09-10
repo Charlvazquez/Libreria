@@ -1,1 +1,6 @@
-Middle
+<h2>Recientes Agregados</h2>
+<div>
+    <% libros.forEach(libro => { %>
+        <img height="150" width="100" src="<%= libro.portadaPath %>">
+    <% }) %>
+</div>
